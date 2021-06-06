@@ -65,8 +65,6 @@ from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 PM_START_TEXT = """
 Hello there, I'm [Clever boy](https://telegra.ph/file/c21a37a9866e9316cbf54.jpg)
 
-My owner is  @Lasiyahh
-
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
 
 ✪ Make sure you read *INFO* Section Below ✪ 
@@ -85,7 +83,6 @@ buttons = [
         ),
     ],
 ]
-
 
 HELP_STRINGS = f"""
 *Main Commands :* [🤖](https://telegra.ph/file/c21a37a9866e9316cbf54.jpg)
