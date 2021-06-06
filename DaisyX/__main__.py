@@ -65,6 +65,8 @@ from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 PM_START_TEXT = """
 Hello there, I'm [Clever boy](https://telegra.ph/file/c21a37a9866e9316cbf54.jpg)
 
+My owner is  @Lasiyahh
+
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
 
 ✪ Make sure you read *INFO* Section Below ✪ 
@@ -79,7 +81,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add  cleverboy to your group 💫", url="t.me/cleverboybots?startgroup=true"
+            text="💫 Add  cleverboy to your group 💫", url="t.me/lasiyahh_clever_boy_bot?startgroup=true"
         ),
     ],
 ]
@@ -246,7 +248,7 @@ def error_handler(update, context):
         "An exception was raised while handling an update\n"
         "<pre>update = {}</pre>\n\n"
         "<pre>{}</pre>"
-    ).format(
+   ).format(
         html.escape(json.dumps(update.to_dict(), indent=2, ensure_ascii=False)),
         html.escape(tb),
     )
