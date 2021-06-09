@@ -63,7 +63,7 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [clever z](https://telegra.ph/file/c21a37a9866e9316cbf54.jpg)
+Hello there, I'm [clever boy](https://telegra.ph/file/c21a37a9866e9316cbf54.jpg)
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
 ✪ Make sure you read *INFO* Section Below ✪ 
 """
@@ -77,7 +77,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add Daisy to your group 💫", url="t.me/lasiyahh_clever_boy_bot?startgroup=true"
+            text="💫 Add clever boy to your group 💫", url="t.me/lasiyahh_clever_boy_bot?startgroup=true"
         ),
     ],
 ]
